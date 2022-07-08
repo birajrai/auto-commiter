@@ -29,9 +29,8 @@ const makeCommit = (n) => {
       .add([FILE_PATH])
       .commit(
         `feat: create commit at ${formattedDate}`,
-        { "--date": DATE }
-        //,
-        // makeCommit.bind(this, --n)
+        { "--date": DATE },
+        makeCommit.bind(this, --n)
       )
       .push();
   });
