@@ -1,3 +1,4 @@
+require("replup").config();
 const simpleGit = require("simple-git");
 const jsonfile = require("jsonfile");
 const random = require("random");
