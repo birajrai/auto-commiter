@@ -1,0 +1,23 @@
+{
+  "name": "auto-commiter",
+  "version": "1.0.0",
+  "description": "Makes your GitHub Graph green like a pro!",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./main.js",
+    "lint": "eslint ."
+  },
+  "repository": "https://github.com/birajrai/auto-commiter",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "6.1.0",
+    "moment": "2.29.1",
+    "random": "3.0.6",
+    "simple-git": "2.38.0"
+  },
+  "devDependencies": {
+    "eslint": "8.1.0"
+  }
+}
