@@ -28,7 +28,7 @@ const makeCommit = (n) => {
     simpleGit()
       .add([FILE_PATH])
       .commit(
-        `feat: create commit at ${formattedDate}`,
+        `ahhh: create commit at ${formattedDate}`,
         { "--date": DATE },
         makeCommit.bind(this, --n)
       )
